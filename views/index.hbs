@@ -1,0 +1,11 @@
+        {{# each contents }}
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h3>{{ this.title }}</h3>
+                        <br>
+                        <small> Author: {{ this.author}} </small>
+                        <br>
+                        <p class="description">{{ this.description }}</p>
+                    </div>
+                </div>
+        {{/each}}
